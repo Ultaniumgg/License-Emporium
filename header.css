@@ -1,0 +1,130 @@
+.header {
+    height: 80px;
+    background-color: rgb(126, 126, 126);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    
+    
+    }
+
+    
+    
+
+        
+   .menu-icon {
+    position: absolute;
+    padding: 15px;
+    left: 2px;
+    bottom: 2px;
+    font-size: 35px;
+    color: white;
+    border: none;
+    background-color: transparent;
+   }
+
+   
+
+    .middle-side {
+        display: flex;
+        flex: 1;
+        font-size: 55px;
+        font-weight: bold;
+        position: absolute;
+        top: -45px;
+        left: 95px;
+        
+        
+        
+    }
+    
+    
+
+    
+    
+    
+
+    .search-bar {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin-left: 600px;
+        margin-right: 600px;
+        height: 30px;
+    }
+
+
+
+    .search-button {
+        position: relative;
+        background: rgb(59, 59, 59);
+        display: flex;
+        flex: 1;
+        
+        color: white;
+       text-align: center;
+       font-size: 16px;
+    }
+
+    .search-icon {
+        position: absolute;
+        right: 0;
+        top: -0.2px;
+        bottom: 2px;
+        background-color: rgb(37, 37, 37);
+        color: white;
+        border: none;
+        
+        
+    }
+    
+    .search-button::placeholder {
+        text-align: center;
+        color: rgb(146, 146, 146);
+        font-size: 16px;
+    }
+
+    .right-side {
+        width: 225px;
+        position:absolute;
+        right: 0;
+        display: flex;
+        flex: 0;
+        
+    }
+
+    .sign-in {
+        background-color: transparent;
+        color: white;
+        border: hidden;
+        font-family: fantasy;
+        font-size: 20px;
+        
+        
+    }
+
+    .sign-in:hover {
+        cursor: pointer;
+        color: gray;
+        transition: 0.15s;
+       
+    }
+
+    .register {
+        background-color: transparent;
+        color: white;
+        border: none;
+        font-family: fantasy;
+        font-size: 20px;
+    }
+
+    .register:hover {
+        cursor: pointer;
+        color: gray;
+        transition: 0.15s;
+    }
